@@ -64,7 +64,7 @@ function renderCanvas() {
 
   // Dashed Center Line
   context.beginPath();
-  context.setLineDash([4]);
+  context.setLineDash([5]);
   context.moveTo(0, 350);
   context.lineTo(500, 350);
   context.strokeStyle = 'grey';
